@@ -7,5 +7,5 @@ CG_CUDA is implemented through CUDA to achieve GPU parallelism, which can speed 
 
 CG_CUDA can be compiled with the following command:  
 ```
-nvcc CG.cu -lcublas -lcusparse -o CG
+nvcc main.cu -lcublas -lcusparse -o main
 ```
